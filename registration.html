@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+h1{
+background-color:lightcyan;
+font-family:times new roman;
+color:blue;
+}
+div{
+width:700px;
+background-color:pink;
+padding:20px;
+margin:0 auto;
+border-radius:14px;
+}
+table{
+border-spacing:20px;
+}
+body{
+background-color:lightblue;
+}
+</style>
+</head>
+<body>
+<center>
+<h1>REGISTERATION FORM</h1>
+</center>
+<div>
+<form>
+<table>
+<tr>
+<td><label for="cname">candidatename</label></td>
+<td><input type="text" id="candidatename" placeholder="enter the name of the employee" size="50px"></td>
+</tr>
+<tr>
+<td><label for="email">EMAIL-id</label></td>
+<td><input type="text" id="email" placeholder="adc@gmail.com" size="50px"></td>
+</tr>
+<tr>
+<td><label for="gender">GENDER</label></td>
+<td><input type="radio" name="gender">male<br>
+<input type="radio" name="gender">female<br></td>
+</tr>
+<tr>
+<td><label for="dob">DATE OF BIRTH</label></td>
+<td><input type="date" id="dob"></td>
+</tr>
+<tr>
+<td><label for="doj">DATE OF JOINING</label></td>
+<td><input type="date" id="doj"></td>
+</tr>
+<tr>
+<td><label for="address">ADDRESS</label></td>
+<td><textarea cols="5" rows="2" id="address"></textarea></td>
+</tr>
+<tr>
+<td><label for="phone">PHONE NO:</label></td>
+<td><input type="tel" id="phone" size="10" value="+91"></td>
+</tr>
+<tr>
+<td><label>EDUCATION QUALIFICATION</label></td>
+<td><select><option>COURSE</option><option>BE</option><option>MTECH</option>MSC</option><option>BSC</option><option>BCOM</option></td>
+</tr>
+<tr>
+<td><label>years of experience</label></td>
+<td><select><option>years</option><option>1</option><option>2</option>3</option><option>4</option><option>5+</option></td>
+</tr>
+<tr>
+<td><label for="skills">skills set:</label></td>
+<td><input type="checkbox" id="skills">AI<input type="checkbox" id="skills">DS<input type="checkbox" id="skills">IOT<input type="checkbox" id="skills">CLOUD</td>
+</tr>
+<tr>
+<td><label for="myfile">upload the resume:</label></td>
+<td><input type="file" id="myfile"></td>
+</tr>
+</table>
+<tr>
+<center>
+<input type="submit" value="submit"><input type="reset" value="reset"></td>
+</center>
+</tr>
+</div>
+</form>
+</body>
+</html>
