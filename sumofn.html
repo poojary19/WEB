@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1{
+background-color:pink;
+color:blue;
+}
+div{
+width:500px;
+background-color:cyan;
+padding:30px;
+margin:0 auto;
+border-radius:15px;
+}
+table{
+border-spacing:12px;
+}
+body{
+background-color:lavender;
+}
+</style>
+<script>
+function calculatesum(){
+var n=parseInt(document.getElementById("num").value);
+var sum=0;
+for(var i=1;i<=n;i++)
+{
+sum=sum+i;
+}
+document.getElementById("res").value=sum;
+}
+</script>
+</head>
+<body>
+<center>
+<h1>sum of the numbers(4JK21CS029)</h1>
+<hr>
+<div>
+<table>
+<tr>
+<td><label for="num" >enter a value of n</label></td>
+<td><input type="number" id="num"></td>
+</tr>
+<tr>
+<td><label for="res">RESULT:</label></td>
+<td><input type="number" id="res"></td>
+</tr>
+</table>
+<input type="button" value="sumoutput" onclick="calculatesum()">
+</center>
+</div>
+</body>
+</html>
